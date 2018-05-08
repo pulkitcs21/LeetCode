@@ -17,7 +17,7 @@ public class ReverseWordsInString {
 			String sk = list.get(i);
 			StringBuilder sb = new StringBuilder();
 			for(int j=sk.length()-1; j>= 0;  j--) {
-				sb.append(j);
+				sb.append(sk.charAt(j));
 			}
 			String r = sb.toString();
 			list2.add(r);
